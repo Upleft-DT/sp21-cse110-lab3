@@ -1,1 +1,19 @@
-df
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: rgb(0, 155, 255);
+}
+
+h3 {
+    color: #3437eb
+}
+
+h3 {
+    color: #3437eb
+}
+
+body {
+    color: hsl(230, 43%, 50%);
+}
