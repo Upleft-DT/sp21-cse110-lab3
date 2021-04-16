@@ -49,10 +49,13 @@ div {
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 details {
     border-style: groove;
+    background-color: red;
     border-color: red;
     border-width: .9px;
     border-radius: 5px;
@@ -61,7 +64,13 @@ details {
     text-align: center;
 }
 
+.fixed {
+    position: fixed;
+    top: 7px;
+}
+
 img {
     max-width: 100%;
     height: auto;
+    position: static;
 }
