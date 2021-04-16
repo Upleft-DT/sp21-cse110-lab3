@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(0, 155, 255);
+    color: rgb(255, 0, 0);
 }
 
 h3 {
@@ -16,4 +16,5 @@ h3 {
 
 body {
     color: hsl(230, 43%, 50%);
+    background-color: #FDEFB2;
 }
