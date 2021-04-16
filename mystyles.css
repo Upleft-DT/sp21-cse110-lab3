@@ -1,20 +1,26 @@
 h1 {
     color: blue;
+    font-size: 60px;
 }
 
 h2 {
     color: rgb(255, 0, 0);
+    font-size: 1cm;
+}
+
+p {
+    font-size: 2vh;
+    line-height: 1ex;
 }
 
 h3 {
-    color: #3437eb
+    color: #3437eb;
+    font-size: .25in;
 }
 
-h3 {
-    color: #3437eb
-}
 
 body {
     color: hsl(230, 43%, 50%);
     background-color: #FDEFB2;
+    font-size: 1.01em;
 }
