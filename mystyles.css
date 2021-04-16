@@ -15,6 +15,14 @@ p {
     line-height: 1ex;
 }
 
+p.ex1 {
+    display: block;
+}
+
+p.ex2 {
+    display: inline;
+}
+
 h3 {
     color: #3437eb;
     font-size: .25in;
