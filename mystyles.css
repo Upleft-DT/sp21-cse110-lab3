@@ -69,6 +69,15 @@ details {
     top: 7px;
 }
 
+details:hover {
+    background-color: green;
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
 img {
     max-width: 100%;
     height: auto;
