@@ -3,24 +3,25 @@ h1 {
     font-size: 60px;
     text-decoration: underline overline dotted red;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
 }
 
 h2 {
     color: rgb(255, 0, 0);
     font-size: 1cm;
-    font-family: 'Rubik', sans-serif;
 }
 
 h3 {
     color: #3437eb;
     font-size: .25in;
-    font-family: 'Rubik', sans-serif;
 }
 
 p {
     font-size: 2vh;
     line-height: 1ex;
+}
+
+#pcolor {
+    color: coral;
 }
 
 p.ex1 {
@@ -97,3 +98,33 @@ img {
         background-color: lightcoral;
     }
   }
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+textarea[name="story"] {
+    background-color: lightcyan;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+details summary {
+    color: pink;
+}
+
+details > ul {
+    color: pink;
+}
+
+br + label {
+    color : navy;
+}
+
+h2 ~ h3 {
+    background-color: tan;
+}
+
+
