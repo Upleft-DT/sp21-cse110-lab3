@@ -24,6 +24,7 @@ p {
     color: coral;
 }
 
+
 p.ex1 {
     display: block;
     display: flex;
@@ -89,6 +90,9 @@ img {
     position: static;
 }
 
+/*
+When the screen width goes below 600, change background to lightcoral and resize p
+*/
 @media only screen and (max-width: 600px) {
     p {
         font-size: 13px;
@@ -103,10 +107,16 @@ img {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+/*
+make the background of the text box form lightcyan
+*/
 textarea[name="story"] {
     background-color: lightcyan;
 }
 
+/*
+Set the font of all the headers to Rubik
+*/
 h1, h2, h3 {
     font-family: 'Rubik', sans-serif;
 }
