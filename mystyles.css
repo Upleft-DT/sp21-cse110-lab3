@@ -3,11 +3,19 @@ h1 {
     font-size: 60px;
     text-decoration: underline overline dotted red;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 h2 {
     color: rgb(255, 0, 0);
     font-size: 1cm;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+    color: #3437eb;
+    font-size: .25in;
+    font-family: 'Rubik', sans-serif;
 }
 
 p {
@@ -24,12 +32,6 @@ p.ex2 {
     display: inline;
     display: flex;
 }
-
-h3 {
-    color: #3437eb;
-    font-size: .25in;
-}
-
 
 body {
     color: hsl(230, 43%, 50%);
