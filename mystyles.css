@@ -1,0 +1,153 @@
+h1 {
+    color: blue;
+    font-size: 60px;
+    text-decoration: underline overline dotted red;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 1cm;
+}
+
+h3 {
+    color: #3437eb;
+    font-size: .25in;
+}
+
+p {
+    font-size: 2vh;
+    line-height: 1ex;
+}
+
+#pcolor {
+    color: coral;
+}
+
+
+p.ex1 {
+    display: block;
+    display: flex;
+}
+
+p.ex2 {
+    display: inline;
+    display: flex;
+}
+
+body {
+    color: hsl(230, 43%, 50%);
+    background-color: #FDEFB2;
+    font-size: 1.01em;
+}
+
+div {
+    border-style: groove;
+    border-color: red;
+    border-width: .9px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+details {
+    border-style: groove;
+    background-color: red;
+    border-color: red;
+    border-width: .9px;
+    border-radius: 5px;
+    margin: 1px 100px 1px 100px;
+    padding: 1px 100px 1px 100px;
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+    top: 7px;
+}
+
+details:hover {
+    background-color: green;
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    position: static;
+}
+
+/*
+When the screen width goes below 600, change background to lightcoral and resize p
+*/
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 13px;
+        line-height: 1ex;
+    }
+    body {
+        background-color: lightcoral;
+    }
+  }
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*
+make the background of the text box form lightcyan
+*/
+textarea[name="story"] {
+    background-color: lightcyan;
+}
+
+/*
+Set the font of all the headers to Rubik
+*/
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+details summary {
+    color: pink;
+}
+
+details > ul {
+    color: pink;
+}
+
+br + label {
+    color : navy;
+}
+
+h2 ~ h3 {
+    background-color: tan;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+    row-gap: 5px;
+}
+

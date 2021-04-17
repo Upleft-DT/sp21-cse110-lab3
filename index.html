@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSE 110 Lab 2</title>
+        <meta name="description" content="Lab 2 Part 1 HTML">
+        <meta name="author" content="Dante Tanjuatco">
+        <link rel="stylesheet" href="mystyles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div>JOURNAL ENTRIES</div>
+            <nav class = "fixed">
+                <details>
+                    <summary>Sections</summary>
+                    <ul>
+                        <li><a href="#1st">Day 1</a></li>
+                        <li><a href="#2nd">Day 2</a></li>
+                        <li><a href="#3rd">Day 3</a></li>
+                        <li><a href="#create-entry">Create an entry</a></li>
+                    </ul>
+                </details>
+            </nav>
+        </header>
+        <main>
+            <h1>Dante's Journal</h1>
+            <section>
+                <h2 id="1st" class = "flex-container">Entry #1</h2>
+                <h3>Todays favorite image</h3>
+                <img src="sanic.png" alt="Picture of sonic poorly drawn">
+                <hr>
+                <p class="ex2">Today I cooked spaghetti with ketchup instead of spaghetti sauce. This is known as... <p class="ex1">Napolitan</p> Here's a tiny recipe:</p>
+                <ul>
+                    <li>Ingredients
+                        <ul>
+                            <li><i>Spaghetti (220 grams)</i></li>
+                            <li><i>Garlic (1 clove)</i></li>
+                            <li><i>1/2 Onion</i></li>
+                            <li id="pcolor"><i>Ketchup (2 Tablespoons)</i></li>
+                            <li><i>Hot Dogs (Preference)</i></li>
+                        </ul>
+                    </li>
+                    <li>Steps
+                        <ol class="grid-container">
+                            <li>Put Spaghetti in boiling pot, cook for 10 minutes</li>
+                            <li>6 minutes in cook Garlic in Olive Oil until fragrant</li>
+                            <li>Add onions, cook until half cooked</li>
+                            <li>Add the hotdog</li>
+                            <li>Add the spaghetti and ketchup then mix</li>
+                        </ol>
+                    </li>
+                </ul>
+
+                
+            </section>
+            <section>
+                <h2 id="2nd" class = "flex-container">Entry #2</h2>
+                <h3>Todays favorite video</h3>
+                <video controls width="250">
+                    <source src="flip.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section>
+                <h2 id="3rd" class = "flex-container">Entry #3</h2>
+                <h3><span>Todays</span> favorite song</h3>
+                <audio controls src="Kahoot.mp3"> 
+                    <code>audio</code> element.
+                </audio>
+            </section>
+            <form class="grid-container">
+                <fieldset>
+                    <legend id="create-entry"><strong>CREATE AN ENTRY</strong></legend>
+                    <label for="entry"><em>Entry Date:</em></label>
+                    <input type="date" id="entry" name="trip-start" value="2021-04-10" min="2021-01-01" max="2021-12-31">
+                    <br>
+
+                    <label for="story"><em>What did you do today?</em></label>
+                    <br>
+                    <textarea id="story" name="story" rows="5" cols="33">Type here...</textarea>
+                    <br>
+
+                    <label for="emotion-choice"><em>My day was</em></label>
+                    <input list="emotions" id="emotion-choice" name="emotion-choice" />
+                    <datalist id="emotions">
+                        <option value="Good">
+                        <option value="Bad">
+                        <option value="Meh">
+                    </datalist>
+                    <br>
+
+                    <label for="action-select"><em>Tomorrow, I'll make sure to </em></label>
+                    <select name="actions" id="action-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="exercise">exercise</option>
+                        <option value="work">work</option>
+                        <option value="study">study</option>
+                        <option value="meet some friends">meet some friends</option>
+                    </select>
+                    <br>
+
+                    <button class="submit" type="button">
+                        <b>Submit</b>
+                    </button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>© 2021 Dante Tanjuatco</p>
+        </footer>
+    </body>
+</html>
